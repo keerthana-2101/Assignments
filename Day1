@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1 Assignment</title>
+</head>
+<body>
+
+    <!-- Header contains the site title and navigation bar -->
+    <header>
+        <h1>G. Keerthana Reddy</h1>
+        <p>Aspiring AWS Cloud Engineer | B.Tech Student</p>
+
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content of the portfolio -->
+    <main>
+
+        <!-- Hero section -->
+        <section id="hero">
+            <h2>Hero Section</h2>
+            <p>Hello, I am G. Keerthana Reddy.</p>
+            <p>
+                I have completed projects in AWS Cloud and AI, including Automated CI/CD pipeline,
+                Data Analysis, Deploying a scalable static website with CloudFront CDN,
+                and implementing a personal cloud storage solution using AWS S3.
+            </p>
+        </section>
+
+        <!-- About Me section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <article>
+                <p>
+                    I have strong interest in cloud computing, AWS and Devops,
+                    with a focus on building scalable and efficient cloud applications.
+                </p>
+                <p>
+                    I enjoy learning new technologies, working on practical projects, and
+                    continuously improving my skills to become succesful cloud engineer.
+                </p>
+            </article>
+
+            <aside>
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li>B.Tech Student</li>
+                    <li>Completed 4 hands on projects</li>
+                    <li>Learning AWS, DevOps, Linux and Git</li>
+                </ul>
+            </aside>
+
+            <h3>My Learning Journey</h3>
+            <ol>
+                <li>Started with the basics of HTML and CSS.</li>
+                <li>Learned Git and GitHub for version control.</li>
+                <li>Explored core AWS services like S3, IAM, and CloudFront.</li>
+                <li>Practiced building CI/CD pipelines with CodePipeline and CodeBuild.</li>
+                <li>Currently learning DSA and exploring AI tools.</li>
+            </ol>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <article>
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>Basic CSS</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Cloud and Technical skills</h3>
+                <ul>
+                    <li>AWS Cloud</li>
+                    <li>Git and GitHub</li>
+                    <li>DSA(learning)</li>
+                    <li>AI Tools</li>
+                </ul>
+            </article>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <header>
+                    <h3>Deploying a Scalable Static Website with CDN</h3>
+                </header>
+                <p>
+                    Hosted a static website on AWS S3 and improved performance using 
+                    Amazon CloudFront CDN for faster and secure content delivery.
+                </p>
+                <p>
+                    Technologies used: AWS S3, CloudFront.
+                </p>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Implementing a Personal Cloud Storage Solution</h3>
+                </header>
+                <p>
+                    Built a secure cloud storage solution using AWS S3 with features 
+                    such as versioning, IAM access control, and data protection.
+                </p>
+                <p>
+                    Technologies used: AWS S3, IAM.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                You can contact me for Project collaborations, job opportunities, or 
+                any inquiries related to my work.
+            </p>
+
+            <address>
+                <p>Email: <a href="mailto:gudurukeerthanareddy21@gmail.com">gudurukeerthanareddy21@gmail.com</a></p>
+                <p>Location: Bengaluru, Karnataka, India</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/keerthana-reddy-g-51a929374" target="_blank">linkedin.com/in/keerthana-reddy-g-51a929374</a></p>
+                <p>GitHub: <a href="https://github.com/keerthana-2101" target="_blank">github.com/keerthana-2101</a></p>
+            </address>
+
+            <form>
+                <fieldset>
+                    <legend>Send a Message</legend>
+
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Guduru Keerthana Reddy. All rights reserved.</p>
+        <p>
+            <a href="#hero">Back to Top</a>
+        </p>
+    </footer>
+
+</body>
+</html>
