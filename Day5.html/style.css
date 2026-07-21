@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -14,21 +14,21 @@
 }
 
 body {
-    font-family: var(--font-body);
     background-color: var(--color-bg);
     color: var(--color-text);
+    font-family: var(--font-body);
 }
 
 h1, h2, h3 {
-    font-family: var(--font-heading);
     color: var(--color-primary);
+    font-family: var(--font-heading);
 }
 
 header {
     background-color: var(--color-primary);
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 #navbar a {

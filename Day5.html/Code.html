@@ -132,9 +132,7 @@
             <h2 id="projects-heading">Projects</h2>
 
             <article class="project-card" data-category="full-stack" data-year="2026">
-                <header>
-                    <h3>BookMyShow Clone</h3>
-                </header>
+                <h3>BookMyShow Clone</h3>
                 <p>
                     A movie ticket booking application built to practice
                     <strong>full stack development</strong> concepts and user flows.
@@ -145,9 +143,7 @@
             </article>
 
             <article class="project-card" data-category="education" data-year="2026">
-                <header>
-                    <h3>MERN Stack Training Projects</h3>
-                </header>
+                <h3>MERN Stack Training Projects</h3>
                 <p>
                     A collection of practical projects designed for students
                     learning frontend and backend development.
@@ -159,10 +155,93 @@
             </article>
 
             <article class="project-card" data-category="cloud" data-year="2025">
-                <header>
-                    <h3>Deploying a Scalable Static Website with CDN</h3>
-                </header>
+                <h3>Deploying a Scalable Static Website with CDN</h3>
                 <p>
                     Hosted a static website on <strong>AWS S3</strong> and improved performance using
                     Amazon CloudFront CDN for faster and more secure content delivery. A
-                    <em>static website</em>
+                    <em>static website</em> serves fixed HTML, CSS, and image files rather than
+                    generating pages on a server each time, and the CDN copies the site to
+                    locations around the world so visitors load it from a nearby server instead
+                    of one far away — keeping it fast and <strong>scalable</strong> even under heavy traffic.
+                </p>
+                <p>
+                    Technologies used: AWS S3, CloudFront.
+                </p>
+            </article>
+
+            <article class="project-card" data-category="cloud" data-year="2025">
+                <h3>Implementing a Personal Cloud Storage Solution</h3>
+                <p>
+                    Built a secure personal cloud storage solution using <strong>AWS S3</strong>,
+                    similar in spirit to Google Drive or Dropbox but self-built, with
+                    <em>versioning</em> to recover earlier file copies, <strong>IAM</strong> access
+                    control to restrict who can view or use the files, and additional data
+                    protection to guard against accidental loss.
+                </p>
+                <p>
+                    Technologies used: AWS S3, IAM.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="media" aria-labelledby="media-heading">
+            <h2 id="media-heading">Media</h2>
+            <article>
+                <video src="sample-5s-360p.webm" width="350" height="250" aria-label="Portfolio introduction video" controls>
+                    Your browser does not support the video tag. You can
+                    <a href="sample-5s-360p.webm">download the video</a> instead.
+                </video>
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>
+                You can contact me for <strong>project collaborations</strong>, job opportunities, or
+                any inquiries related to my work.
+            </p>
+
+            <address>
+                Email: <a href="mailto:gudurukeerthanareddy21@gmail.com">gudurukeerthanareddy21@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/keerthana-reddy-g-51a929374" target="_blank" rel="noopener noreferrer">linkedin.com/in/keerthana-reddy-g-51a929374</a><br>
+                GitHub: <a href="https://github.com/keerthana-2101" target="_blank" rel="noopener noreferrer">github.com/keerthana-2101</a>
+            </address>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Send me a message</legend>
+
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send Message</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 G. Keerthana Reddy. All rights reserved.</p>
+        <p>
+            <a href="#hero">Back to Top</a>
+        </p>
+    </footer>
+
+</body>
+</html>
